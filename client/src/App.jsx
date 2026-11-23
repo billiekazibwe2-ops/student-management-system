@@ -1,8 +1,8 @@
-﻿import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api/students";
+const API = "https://student-management-system-021t.onrender.com/api/students";
 
 function App() {
   const [students, setStudents] = useState([]);
@@ -285,3 +285,4 @@ function App() {
 }
 
 export default App;
+
